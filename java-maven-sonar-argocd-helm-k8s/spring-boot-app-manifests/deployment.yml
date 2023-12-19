@@ -16,6 +16,7 @@ spec:
     spec:
       containers:
         - name: spring-boot-app
-          image: sub1ime/ultimate-cicd:3
+          #image: sub1ime/ultimate-cicd:3
+          image: sub1ime/gitlab-cicd-demo:latest
           ports:
             - containerPort: 8080
